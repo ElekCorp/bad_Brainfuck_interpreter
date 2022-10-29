@@ -113,7 +113,7 @@ int main(int argv, char *args[])
         //putchar(*code_position);
         ++code_position;
     }
-    printf("\n%d\n", loop_lvl);
+    //printf("\n%d\n", loop_lvl);
     free(tape_front);
 
     return 0;
